@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Forma</title>
+</head>
+<body>
+    <div id="mojDiv" class="Container">
+    <form id="mojaForma" class="forma">
+    <p class="prviParagraf"><a class="broj1">1</a> Personal Information</p>
+    <input id="prviInput" type="text" placeholder="Your Name *" required ></input>
+    <br>
+    <br>
+    <input id="drugiInput" type="text" placeholder="Your Address *" required></input>
+    <p class="drugiParagraf"><a class="broj2">2</a> Book Information</p>
+    <p id="priceParagraf">Book Price 150$</p>
+    <p>Additional requirements</p>
+    <input type="checkbox" id="prviCheckbox" name="checkboxovi" value="10">Hardcover(+10$)</input>
+    <br>
+    <input type="checkbox" id="drugiCheckbox" name="checkboxovi" value="5">Wrapping Paper(+5$)</input>
+    <br>
+    <input type="checkbox" id="treciCheckbox" name="checkboxovi" value="25">Fast shipping(+25$)</input>
+    <br>
+    <input type="checkbox" id="cetvrtiCheckbox" name="checkboxovi" value="30">Nesto(+30$)</input>
+    <br>
+    <input type="checkbox" id="cetvrtiCheckbox" name="checkboxovi" value="-15">Discount(-15$)</input>
+</form>
+    <button id="mojButton" class="dugme">Apply</button>
+    <div class="divZaIspis">
+    <p id="paragrafZaIspisOrderDetails"></p>
+    <p id="paragrafZaIspisIme"></p>
+    <p id="paragrafZaIspisAdrese"></p>
+    <p id="paragrafZaIspisTotalOrder"></p>
+    </div>
+</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
